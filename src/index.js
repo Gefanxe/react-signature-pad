@@ -24,8 +24,6 @@ export default class SignaturePad extends React.Component {
     this._ctx = this._canvas.getContext("2d");
     this.clear();
 
-    console.log(document);
-
     this._handleMouseEvents();
     this._handleTouchEvents();
     this._resizeCanvas();
