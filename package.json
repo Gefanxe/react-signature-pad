@@ -1,6 +1,6 @@
 {
   "name": "react-signature-pad",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A signature pad implementation for react.",
   "main": "lib/app.js",
   "scripts": {
@@ -17,9 +17,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/blackjk3/react-signature-pad.git"
+    "url": "https://github.com/Gefanxe/react-signature-pad.git"
   },
-  "author": "Jason Kadrmas",
+  "author": "Gefanxe",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^5.6.15",

@@ -24,6 +24,8 @@ export default class SignaturePad extends React.Component {
     this._ctx = this._canvas.getContext("2d");
     this.clear();
 
+    console.log(document);
+
     this._handleMouseEvents();
     this._handleTouchEvents();
     this._resizeCanvas();
@@ -320,7 +322,7 @@ export default class SignaturePad extends React.Component {
     return (
       <div id="signature-pad" className="m-signature-pad">
         <div className="m-signature-pad--body">
-          <canvas ref="cv"></canvas>
+          <canvas ref="cv" style={this.props.canvasStyle}></canvas>
         </div>
         { this.props.clearButton &&
           <div className="m-signature-pad--footer">

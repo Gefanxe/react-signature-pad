@@ -10,15 +10,24 @@ var React = require('react');
 var SignaturePad = require('react-signature-pad');
 
 React.render(
-  <SignaturePad clearButton="true" />,
+  <SignaturePad clearButton={true} />,
   document.body
 )
+```
+
+# Canvas Style
+
+```javascript
+<SignaturePad clearButton={true} ref="mySignature" canvasStyle={{ width: 500, height: 250, backgroundColor: 'white' }} />
+...
+
+
 ```
 
 # Methods
 
 ```javascript
-<SignaturePad clearButton="true" ref="mySignature" />
+<SignaturePad clearButton={true} ref="mySignature" />
 ...
 
 var signature = this.refs.mySignature;
